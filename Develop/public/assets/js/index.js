@@ -3,6 +3,7 @@ let noteText;
 let saveNoteBtn;
 let newNoteBtn;
 let noteList;
+Console.log("JavaScript file is linked and working");
 
 if (window.location.pathname === '/notes') {
   noteTitle = document.querySelector('.note-title');
